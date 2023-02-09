@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module_C5.7_Homework_5</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="main">
+
+    <div class="wrapper">
+
+        <p class="text">Введите номер страницы и диапазон от 1 до 10:</p>
+
+        <div class="form">
+            <label class="label" for="page">Номер страницы</label>
+            <input class="input input-page" type="number" id="page" min="1" max="10" placeholder="0">
+            <label class="label" for="limit">Лимит</label>
+            <input class="input input-limit" type="number" id="limit" min="1" max="10" placeholder="0">
+            <button class="btn" type="submit">Запрос</button>
+        </div>
+
+        <div class="result">Вывод</div>
+        
+        <div>
+            <button class="clear-storage" type="submit">Очистить localStorage</button>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
